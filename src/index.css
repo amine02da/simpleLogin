@@ -1,0 +1,58 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #d4d4d4;
+
+}
+
+form{
+  height: 400px;
+  width: 700px;
+  background: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form input {
+  padding: 10px;
+  background: beige;
+  margin-bottom: 2px;
+  border: none;
+  outline: none;
+}
+button{
+  background: white;
+  border: 2px solid #d4d4d4;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+
+}
+button:hover{
+  background: white;
+  color: #d4d4d4;
+  cursor: pointer;
+}
+.studentName{
+  background: beige;
+  border: 1px dashed #d4d4d4;
+  padding: 10px;
+}
+small{
+  display: block;
+  color: red;
+}
+.red{
+  color: royalblue;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-top: 100px;
+}
+span{
+  color: gray;
+}
